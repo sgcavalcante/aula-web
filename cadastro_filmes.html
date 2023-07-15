@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Filmes</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Cadastro de Filmes</h1>
+    <form action="" method="post">
+        
+        <div class="componentes"><!-- Espaco para titulo do filme-->
+            
+            <label for="titulo">Titulo do Filme:</label>
+            <input type="text" name="titulo" id="titulo">
+        </div>
+       
+        <div class = "componentes"><!--Espaco para escolha do Genero-->
+            <label for="genero">Genero</label>
+            <select name="genero" id="genero">
+                <option value="acao">Acao</option>
+                <option value="comedia">Comedia</option>
+                <option value="terror">Terror</option>
+                <option value="suspense">Suspense</option>
+                <option value="ficcao">Ficcao</option>
+            </select>
+        </div>
+        
+       
+        <div class = "componentes"><!--Espaco para escolher o anos de lancamento do filme-->
+            <label for="ano">Ano de Lancamento</label>
+           <input type="number" name="ano" id="ano" min = "1900" max = "2100" step ="1" value = "2023">
+        </div>
+
+        
+        <div class = "componentes"><!--Espaco para Sinopse do filme-->
+            <label for="sinopse">Sinopse</label>
+            <textarea name="sinopse" id="sinopse" 
+                cols="" rows="5">
+            </textarea>
+       
+       
+        <div class = "coponentes"><!--Botoes para Enviar/Limpar Cadastro-->
+            <button type="submit">Cadastrar</button>
+            <button type="reset">Limpar Formulario</button>
+        </div>    
+
+
+        </div>
+
+    </form>
+</body>
+</html>

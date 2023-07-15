@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Cadastro de Clientes</h1>
+    <form action="">
+        <label for="">Nome:</label>
+        <input type="text" name="nome" id="nome">
+
+        <br>
+
+        <label for="">Data Nascimento:</label>
+        <input type="date" name="data_nascimento" id ="data_nascimento" >
+
+       
+        <br>
+
+        <label for="">Estado Civil</label>
+        <select name="estado-civel" id="estado-civil">  
+            <option value="solteiro">Solteiro</option>
+            <option value="casado">Casado</option>
+            <option value="viuvo">Viúvo</option>
+            <option value="outros">Outros</option>
+        </select>
+        <br>
+
+        <label for="">Endereço</label>
+        <input type="text" name="endereco" id="endereco">
+
+        <br>
+
+        <label for="">Telefone:</label>
+        <input type="tel" name="telefone" id="telefone" pattern="[0-9]{2}-[0-9]{4,5}-[0-9]{4}"> 
+        <button type="submit">Enviar</button>
+
+    </form>
+</body>
+</html>
