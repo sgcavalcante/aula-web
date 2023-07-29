@@ -5,8 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página de Teste</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        .botao-preto:hover {
+            background-color: black;
+            color: white;
+            font-weight: 200;
+        }
+
+        .fundo_verde{
+            background-color:green;
+        }
+         
+
+        .fundo_azul{
+            background-color:blue;
+        }
+
+        .botao-red{
+            border-radius: 4px;
+            background-color: #f4511e;
+            border: none;
+            color: white;
+            text-align: center;
+            font-size: 28px;
+            padding: 20px;
+            width: 200px;
+            cursor: pointer;
+            margin: 5px;
+                }
+
+        .botao-red1:hover{
+            border-radius: 400px;
+            background-color: #050505;
+            border: none;
+            color: white;
+            text-align: center;
+            font-size: 28px;
+            padding: 20px;
+            width: 100px;
+            cursor: pointer;
+            margin: 5px;
+        }
+        
+     
+    </style>
 </head>
-<body class = "p-3 mb-2 bg-warning text-dark">
+<body class = "fundo_verde fundo_azul">
     <div class="p-3 mb-2 bg-primary text-white" >
         <h6>Sistema Supervisório de Alarmes</h6>
        
@@ -55,9 +99,22 @@
                 <textarea name="text" id="text" cols="30" rows="10"></textarea>
             </div>
         </div>
+        
     </div>
-    <span class="border"></span>
-
+    <div>
+        <h6>Linha 1</h6>
+        <button tupe="Teste" class = "botao-red1 botao-red">Teste1</button>
+        <button tupe="Teste" class = "botao-red1 botao-red">Teste2</button>
+        <button tupe="Teste" class = "botao-red1 botao-red">Teste3</button>
+    </div>
+    <div>
+        <h6>Linha 2</h6>
+        <button tupe="Teste" class = "botao-red1 botao-red">Teste1</button>
+        <button tupe="Teste" class = "botao-red1 botao-red">Teste2</button>
+        <button tupe="Teste" class = "botao-red1 botao-red">Teste3</button>
+    </div>
+    <!--<span class="border"></span>
+    -->
     <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
