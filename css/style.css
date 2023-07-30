@@ -47,7 +47,7 @@
 }
 
 .componentes picture{
-    position: absolute;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -68,14 +68,26 @@
 }
 
 .fonte_titulo_destque_tamanho{
-    font-size:500% 
+    font-size:250% 
 }
 
 .fonte_protocolo_dados_tamanho{
-    font-size:200% 
+    font-size:100% 
 }
 
 .fonte_cor_protocolo_dados{
     color: #f4511e;
 }
 
+.rodape{
+    
+    text-align:center ;   
+    color: white;
+    
+    background-color:black
+    
+}
+
+.rodape_fonte{
+    font-size:75%; 
+}
